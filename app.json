@@ -13,7 +13,9 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture images for analysis."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,6 +25,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+    ]
   }
 }
