@@ -28,7 +28,7 @@ async function seedIntakes() {
     console.log("Deleted existing intakes for user:", forcedUserId);
 
     const today = new Date();
-    const daysToSeed = 3; // about 3 months
+    const daysToSeed = 90; // about 3 months
     let count = 0;
     const intakeDocs = [];
 
